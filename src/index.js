@@ -6,7 +6,8 @@ let btn2 = document.getElementById("decipherButton");
 
 
 btn.addEventListener("click", () => {
-    let msg = text.value;
+    let msgCap= text.value;
+    let msg = msgCap.toUpperCase();
     let offset = (parseInt(offsetUs.value));
     window.cipher.encode(msg,offset);
     
