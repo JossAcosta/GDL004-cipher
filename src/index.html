@@ -2,14 +2,69 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>TOP SECRET
+        
+    </title>
+    
   </head>
+  <link rel="stylesheet" href="./style.css">
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+      <header class="header_container">
+          <h2 id="header_label">TOP SECRET MESSAGES!</h2>
+          <img src="../img/pencil.png" alt="pencil-icon" srcset="">
+      </header>
+          
+          <p id ="container_level">Nivel:</p>
+            <input type="number"  id="userOffset" placeholder="N" class = "input_level">
+          
+            <section >
+          <article >
+              <div >
+                  <textarea class = "textArea" id="textArea1" placeholder = "Escribe tu mensaje aqui" ></textarea></br>
+                  
+                   <button type ="button" id="submitButton" class="btn">Cifra tu mensaje</button>
+                  
+              </div>
+              <div class="result_cipher">
+                  <p id="result_cipher_p">Tu mensaje secreto es:</p><br>
+                  <p id="resultado_encode"></p>
+              </div>
+
+          </article>
+          
+          <article class="container_encode">
+            <div >
+                <textarea class = "textArea" id="textArea2" placeholder = "Escribe tu mensaje aqui" ></textarea></br>
+                              
+                <button type ="button" id="decipherButton" class="btn">Decifra tu mensaje</button>
+                <div class="result_cipher">
+                  <p id="result_cipher_p">Tu mensaje secreto es:</p><br>
+                  <p id="resultado_decode"></p>
+              </div>
+            
+         
+        </article>
+          <aside>
+            <img src="../img/confidence.png" alt="confidence-icon" srcset="" class="aside_img">
+            <img src="../img/erase.png" alt="erase-icono" srcset="" class="aside_img">
+            <img src="../img/heart.png" alt="heart-icono" srcset="" class="aside_img">
+          </aside>
+        
+        </section>
+
+    <footer>
+      <div class="footer_band">
+      <p >¡Ahora puedes mandar mensajes seguros a tus amigas!</p> 
+
+    </div >  
+    <div class="footer_icons">
+        <img src="../img/twitter.png" alt="twitter-logo" srcset="" class="icon">
+        <img src="../img/wapp.png" alt="wapp-logo" srcset="" class="icon">
+        <img src="../img/fb.png" alt="fb-logo" srcset="" class="icon">
+      </div>
+    </footer>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
   </body>
 </html>
