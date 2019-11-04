@@ -1,30 +1,17 @@
 window.cipher ={  
    encode: (msg, offset) => {
     let secretMsg = "";
-        const ABC="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      for(let i=0; i<msg.length; i++){
-        let ind=msg.charAt(i);
-        let pos= parseInt(ABC.indexOf(ind));
-          if(pos>=0){
-          let sum = pos+offset;
-          secretMsg+=ABC.charAt(  ((sum)%26 ) ) 
-          }else{secretMsg+=ind}   
-           document.getElementById("resultado_encode").innerHTML =secretMsg;
-                    
-       } 
-        
+        for(let i=0; i<msg.length; i++){
+        let result = (msg.charCodeAt(i) - 65 + offset) % 26 + 65; 
+        secretMsg += String.fromCharCode(result);
+    }
+      return secretMsg;   
   },
-  decode: (msg, offset) => {
-    let secretMsg1 = "";
-    const ABC="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      for(let i=0; i<msg.length; i++){
-        let ind=msg.charAt(i);
-        let pos= parseInt(ABC.indexOf(ind));
-          if(pos>=0){
-          let dif = parseInt(pos-offset);
-           secretMsg1+=ABC.charAt(  (parseInt(pos-offset)%26 ) ) 
-          }else{secretMsg1+=ind}   
-           document.getElementById("resultado_decode").innerHTML =secretMsg1;
-        } 
+  decode: (msg2, offset) => {
+    let decodeMessage = "";
+    for(let i=0; i<msg2.length; i++){
+    let resultDecode = (msg2.charCodeAt(i) - 90 - offset) % 26 + 90; 
+    decodeMessage += String.fromCharCode(resultDecode); 
   }
-}
+    return decodeMessage; 
+};
