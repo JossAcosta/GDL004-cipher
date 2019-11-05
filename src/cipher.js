@@ -13,9 +13,7 @@ window.cipher ={
          else if(ind === 209){ 
           secretMsg+= 'Ñ'; 
         }
-         else {
-           break; 
-          }
+         
         }
         return secretMsg;   
       },
@@ -33,9 +31,7 @@ window.cipher ={
     }else if (ind===209){
       decodeMsg+= 'Ñ';
     }
-    else {
-      break; 
-     }
+    
     }
     return decodeMsg; 
   }
