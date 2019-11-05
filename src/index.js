@@ -17,8 +17,9 @@ btn.addEventListener("click", () => {
     }  );  
     
 btn2.addEventListener("click", () => {
-        let msg2 = text2.value;
+        let msg2Cap = text2.value;
         let offset = (parseInt(offsetUs.value));
+        let msg2 = msg2Cap.toUpperCase();
        msgToUser2 = window.cipher.decode(msg2,offset);
     document.getElementById("resultado_decode").innerHTML = msgToUser2;
         }  );   

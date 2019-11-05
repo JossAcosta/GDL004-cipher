@@ -5,45 +5,49 @@
 body{
     background-color: #FFDFDF;
     
+    
 }
 
 .header_container{
+    position: relative;
     width: 100%;
-    height: 20%;
+    height: 30%;
     background-color: #FB929E;
     display: flex;
-    justify-items: flex-start;   
-    margin-top: 3%;
+    justify-content: flex-start;
+    margin-top: 2%;
     margin-left:0px;
+    padding-top: 1%;
+    padding-bottom:1%;
 }
 #pencil-icon{
-    display: flex;
-    justify-items: flex-start;
+    display: inline-block;
+    height: 10%;
 
 }
 h2{
-    top: 5%;
-    left: 5%;
-    font-family: Poppins;
+    
+    font-family: 'Patrick Hand', cursive;
     font-style: normal;
-    font-weight: 800;
-    font-size: 250%;
-    line-height: 100%;
+    font-size: 4em;
     color: #FCFFFF;
+    padding-top: 1%;
     padding-left: 2%;
-    display: flex;
+    display: inline-block;
     justify-items: flex-start;
     
 }
+
+
 #container_level{
-    font-family: Rambla;
+   
+    font-family: 'Patrick Hand', cursive;
     font-style: normal;
-    font-weight: bold;
-    font-size: 150%;
+    font-size: 2em;
     border-radius: 10% 10% 0% 0%;
     color: #FFF6F6;
-    width: 5.5%;
-    height: 60%;
+    width: 2.2em;
+    height: 50%;
     background: #8F8787;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-left:8.5%;
@@ -53,16 +57,17 @@ h2{
 
 }
 .input_level{
-    width: 4.6%;
+    
+    width: 2.5em;
     height: 60%;
     background-color: #FFF6F6;
     border:5px solid #FFF6F6;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 0% 0% 10% 10%;
-    font-family: Poppins;
+    font-family: 'Patrick Hand', cursive;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 150%;
     color: #8F8787;
     margin-left:8.5%;
     margin-bottom: 1%;
@@ -76,53 +81,62 @@ h2{
    
 }
 
-#result_cipher_p{
+.result_cipher_p{
     color: #8F8787;
-    font-family: Poppins;
+    font-family: 'Patrick Hand', cursive;
     font-style: normal;
     font-weight: 800;
-    font-size: 150%;
+    font-size: 2em;
     margin:2%;
     display: inline;
 }
 #resultado_encode{
     width: 100%;
-    height: 100px;
     background-image: url('../img/paper.png');
     background-size: cover;
     border:none;
     margin-top: 0%;
     margin-bottom: 0%;
-    font-family: Poppins;
+    font-family: 'Patrick Hand', cursive;
     font-style: normal;
     font-weight: 800;
-    font-size: 150%;
+    font-size: 1.5em;
+    line-height: 20px; 
     color: #8F8787;
     padding-left: 22%;
 }
 #resultado_decode{
     width: 100%;
-    height: 100px;
     background-image: url('../img/paper.png');
     background-size: cover;
     border:none;
     margin-top: 0;
-    font-family: Poppins;
+    font-family: 'Patrick Hand', cursive;
     font-style: normal;
     font-weight: 800;
-    font-size: 150%;
+    font-size: 1.5em;
+    line-height: 20px; 
     color: #8F8787;
     padding-left: 22%;
 }
+.aside_img{
+   margin-bottom: 5%;
+   padding-bottom: 5%;
+}
 .footer_icons{
+    width: 100%;
+    height: 15%;
+    background-color: #FB929E;
+    padding-bottom: 1%;
     display: flex;
     justify-content: center;
+   
 }
 
 .icon{
-    width: 5%; 
-    height: 5%;
-    margin-right: 2%;
+    height: 30px;
+    margin-right: 3%;
+    
         
 }
 .footer_band{
@@ -132,12 +146,11 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Rambla;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 150%;
     color: #FCFFFF;
-    margin-top:5%;
+    margin-top:2%;
+    font-family: 'Patrick Hand', cursive;
+    font-style: normal;
+    font-size: 3em;
    
 }
 section{ 
@@ -146,42 +159,41 @@ section{
     vertical-align: middle;
 }
 aside{
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
     }
-.aside_img{
-    width: 50%;
-    height: 100%;
-}
+
 .btn{
-    font-family: Rambla;
+    font-family: 'Patrick Hand', cursive;
     font-style: normal;
-    font-weight: bold;
-    font-size: 150%;
+    font-size: 1.5em;
     border-radius: 0% 0% 10% 10%;
     color: #FFF6F6;
-    width: 122%;
-    height: 120%;
+    width: 14em;
+    height: 60%;
     background: #8F8787;
     border:5px solid #8F8787;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0;
 }
 .textArea{
-    width: 100%;
-    height: 100px;
+    width: 11em;
     background-image: url('../img/paper.png');
     background-size: cover;
     border:none;
     border-radius: 0 10% 10% 0;
-    //box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 0;
     margin: 0;
-    font-family: Poppins;
+    font-family: 'Patrick Hand', cursive;
     font-style: normal;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 1.5em;
     line-height: 20px;  
     color: #8F8787;
     padding-left: 22%;
 }
 
+.

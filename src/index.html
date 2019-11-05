@@ -8,6 +8,8 @@
     
   </head>
   <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Patrick+Hand&display=swap" rel="stylesheet">
   <body>
       <header class="header_container">
           <h2 id="header_label">TOP SECRET MESSAGES!</h2>
@@ -18,7 +20,7 @@
             <input type="number"  id="userOffset" placeholder="N" class = "input_level" >
           
             <section >
-          <article >
+          <article id="container_encode">
               <div >
                   <textarea class = "textArea" id="textArea1" placeholder = "Escribe tu mensaje aqui" ></textarea><br>
                   
@@ -26,29 +28,29 @@
                   
               </div>
               <div class="result_cipher">
-                  <p id="result_cipher_p">Tu mensaje secreto es:</p><br>
+                  <p class="result_cipher_p">Tu mensaje secreto es:</p><br>
                   <p id="resultado_encode"></p>
               </div>
 
           </article>
           
-          <article class="container_encode">
+          <article class="container_decode">
             <div >
                 <textarea class = "textArea" id="textArea2" placeholder = "Escribe tu mensaje aqui" ></textarea><br>
                               
                 <button type ="button" id="decipherButton" class="btn">Decifra tu mensaje</button>
             </div>
-                <div class="result_cipher">
-                  <p id="result">Tu mensaje secreto es:</p><br>
+              <div class="result_cipher">
+                  <p class="result_cipher_p">Tu mensaje secreto es:</p><br>
                   <p id="resultado_decode"></p>
               </div>
             
          
         </article>
-         <aside>
-           <!--- <img src="../img/confidence.png" alt="confidence-icon"  class="aside_img">
-            <img src="../img/erase.png" alt="erase-icono"  class="aside_img">
-            <img src="../img/heart.png" alt="heart-icono"  class="aside_img">-->
+        <aside class ="aside_icons">
+            <img src="../img/confidence.png" alt="confidence-icon"  class="aside_img" >
+            <img src="../img/erase.png" alt="erase-icono"  class="aside_img" >
+            <img src="../img/heart.png" alt="heart-icono"  class="aside_img" >
           </aside>
         
         </section>
@@ -56,13 +58,13 @@
     <footer>
       <div class="footer_band">
       <p >¡Ahora puedes mandar mensajes seguros a tus amigas!</p> 
-
-    </div >  
-    <div class="footer_icons">
-        <img src="../img/twitter.png" alt="twitter-logo"  class="icon">
-        <img src="../img/wapp.png" alt="wapp-logo"  class="icon">
+      </div>
+      <div class ="footer_icons">   
+        <img src="../img/twitter.png" alt="twitter-logo"  class="icon" width: 5%; height: 5%;>
+        <img src="../img/wapp.png" alt="wapp-logo"  class="icon" width: 3%; height: 3%;>
         <img src="../img/fb.png" alt="fb-logo" class="icon">
       </div>
+    
     </footer>
 
   <script src="cipher.js"></script>
