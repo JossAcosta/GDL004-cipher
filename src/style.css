@@ -29,7 +29,7 @@ h2{
     
     font-family: 'Patrick Hand', cursive;
     font-style: normal;
-    font-size: 4em;
+    font-size: 3.8em;
     color: #FCFFFF;
     padding-top: 1%;
     padding-left: 2%;
@@ -91,7 +91,7 @@ h2{
     display: inline;
 }
 #resultado_encode{
-    width: 100%;
+    width: 12em;
     background-image: url('../img/paper.png');
     background-size: cover;
     border:none;
@@ -103,10 +103,10 @@ h2{
     font-size: 1.5em;
     line-height: 20px; 
     color: #8F8787;
-    padding-left: 22%;
+    padding-left: 2em;
 }
 #resultado_decode{
-    width: 100%;
+    width: 12em;
     background-image: url('../img/paper.png');
     background-size: cover;
     border:none;
@@ -117,7 +117,7 @@ h2{
     font-size: 1.5em;
     line-height: 20px; 
     color: #8F8787;
-    padding-left: 22%;
+    padding-left: 2em;
 }
 .aside_img{
    margin-bottom: 5%;
@@ -179,7 +179,7 @@ aside{
     margin: 0;
 }
 .textArea{
-    width: 11em;
+    width: 12.1em;
     background-image: url('../img/paper.png');
     background-size: cover;
     border:none;
@@ -193,7 +193,6 @@ aside{
     font-size: 1.5em;
     line-height: 20px;  
     color: #8F8787;
-    padding-left: 22%;
+    padding-left: 1.9em;
 }
 
-.
