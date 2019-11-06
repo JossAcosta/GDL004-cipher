@@ -91,7 +91,7 @@ h2{
     display: inline;
 }
 #resultado_encode{
-    width: 12em;
+    width: 10em;
     background-image: url('../img/paper.png');
     background-size: cover;
     border:none;
@@ -100,13 +100,15 @@ h2{
     font-family: 'Patrick Hand', cursive;
     font-style: normal;
     font-weight: 800;
-    font-size: 1.5em;
-    line-height: 20px; 
+    font-size: 1.8em;
+    line-height: 10px; 
     color: #8F8787;
+    padding-top: 0.8em;
+    padding-bottom: 0.5em;
     padding-left: 2em;
 }
 #resultado_decode{
-    width: 12em;
+    width: 10em;
     background-image: url('../img/paper.png');
     background-size: cover;
     border:none;
@@ -114,9 +116,11 @@ h2{
     font-family: 'Patrick Hand', cursive;
     font-style: normal;
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 1.8em;
     line-height: 20px; 
     color: #8F8787;
+    padding-top: 0.8em;
+    padding-bottom: 0.5em;
     padding-left: 2em;
 }
 .aside_img{
@@ -194,5 +198,7 @@ aside{
     line-height: 20px;  
     color: #8F8787;
     padding-left: 1.9em;
+    padding-top: 0.8em;
+    padding-bottom: 0.5em;
 }
 

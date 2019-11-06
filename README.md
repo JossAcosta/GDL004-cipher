@@ -1,4 +1,22 @@
-# Cifrado César
+# TOP SECRET MESSAGES!
+Por medio de este sitio web cifra y descifra tus mensajes para hablar con tus amigas en código en tus redes sociales preferidas.
+Imagen del proyecto: 
+https://www.figma.com/file/ONnbmQcR1nmDZmF3H1GH1W/TopsecretmessagesProyect?node-id=0%3A1
+
+
+i.Los usuarios de esta aplicacion son los niños y adolescentes que deseen cifrar y descifrar sus mensajes antes de enviarlos por cualquier red social.
+
+ii. Los usuarios podran compartir sus mensajes sin temor que lo entiendan otras personas ya que solo podra saber la persona con la que comportas el nivel de cifrado para su descodificación.
+
+iii.El primer prototipo se baso en una interfaz donde el usuario debe selecionar un numero el cual es el nivel de cifrado, un campo para introducir el mensaje a cifrar o descifrar según sea el caso, un boton para realizar dicha operación y un campo en el cual aparece el mensaje cifrado o descfrido, listo para compartir con algún amigo (a).
+
+iv.Feedback: 
+Para evitar la confusion del campo de agregar mensaje, se implemento que el mensaje esperado aparezca una vez que el usuario haya dado click en el botón correspondiente.
+
+V.Imagen final del prototipo elaborado en Figma https://www.figma.com/file/t1E4TS4JtjRjOM0AXO5BDW/cipherJoss?node-id=5%3A0
+
+
+## Cifrado César
 
 ## Índice
 

@@ -44,9 +44,8 @@ window.cipher ={
     }else if (ind===209){
       decodeMsg+= 'Ñ';
      }
-    
     }
     return decodeMsg; 
   }
- 
-};
+
+ };
