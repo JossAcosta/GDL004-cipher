@@ -1,7 +1,6 @@
 # TOP SECRET MESSAGES!
 Por medio de este sitio web cifra y descifra tus mensajes para hablar con tus amigas en código en tus redes sociales preferidas.
-Imagen del proyecto: ![Proyecto-Final]
-https://www.figma.com/file/ONnbmQcR1nmDZmF3H1GH1W/TopsecretmessagesProyect?node-id=0%3A1
+Imagen del proyecto: ![Proyecto-Final](https://www.figma.com/file/ONnbmQcR1nmDZmF3H1GH1W/TopsecretmessagesProyect?node-id=0%3A1)
 
 
 i.Los usuarios de esta aplicacion son los niños y adolescentes que deseen cifrar y descifrar sus mensajes antes de enviarlos por cualquier red social.
@@ -13,7 +12,7 @@ iii.El primer prototipo se baso en una interfaz donde el usuario debe selecionar
 iv.Feedback: 
 Para evitar la confusion del campo de agregar mensaje, se implemento que el mensaje esperado aparezca una vez que el usuario haya dado click en el botón correspondiente.
 
-V.Imagen final del prototipo elaborado en Figma ![prototipo-final] https://www.figma.com/file/t1E4TS4JtjRjOM0AXO5BDW/cipherJoss?node-id=5%3A0
+V.Imagen final del prototipo elaborado en Figma ![prototipo-final](https://www.figma.com/file/t1E4TS4JtjRjOM0AXO5BDW/cipherJoss?node-id=5%3A0)
 
 
 ## Cifrado César
