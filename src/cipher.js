@@ -1,5 +1,5 @@
 window.cipher ={  
-   encode: (msg, offset) => {
+ /*  encode: (msg, offset) => {
     let secretMsg = "";
         const ABC="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       for(let i=0; i<msg.length; i++){
@@ -26,5 +26,5 @@ window.cipher ={
           }else{secretMsg1+=ind}   
            document.getElementById("resultado_decode").innerHTML =secretMsg1;
         } 
-  }
+  }*/
 }
