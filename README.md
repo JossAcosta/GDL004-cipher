@@ -12,7 +12,7 @@ iii.El primer prototipo se baso en una interfaz donde el usuario debe selecionar
 iv.Feedback: 
 Para evitar la confusion del campo de agregar mensaje, se implemento que el mensaje esperado aparezca una vez que el usuario haya dado click en el botón correspondiente.
 
-V.Imagen final del prototipo elaborado en Figma ![prototipo-final](../img/prototipofinal.png)
+V.Imagen final del prototipo elaborado en Figma ![prototipo-final](/img/prototipofinal.png)
 
 
 ## Cifrado César
