@@ -1,6 +1,6 @@
 # TOP SECRET MESSAGES!
 Por medio de este sitio web cifra y descifra tus mensajes para hablar con tus amigas en código en tus redes sociales preferidas.
-Imagen del proyecto: ![Proyecto-Final](../img/ProyectoFinal.png)
+Imagen del proyecto: ![Proyecto-Final](../ProyectoFinal.png)
 
 
 i.Los usuarios de esta aplicacion son los niños y adolescentes que deseen cifrar y descifrar sus mensajes antes de enviarlos por cualquier red social.
